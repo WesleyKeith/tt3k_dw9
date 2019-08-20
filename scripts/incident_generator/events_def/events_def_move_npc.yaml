@@ -58,8 +58,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 110
-        CND_LAST_ROUND: 120
+        CND_FIRST_ROUND: 11
+        CND_LAST_ROUND: 12
         CND_NOT_FACTION: [shu, 3k_main_faction_liu_biao]
         CND_INCIDENT_NOT_GENERATED: huang_zhong_move
         CND_UNIQUE: ''
@@ -133,8 +133,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 120
-        CND_LAST_ROUND: 130
+        CND_FIRST_ROUND: 12
+        CND_LAST_ROUND: 13
         CND_NOT_FACTION: [shu, 3k_main_faction_ma_teng]
         CND_INCIDENT_NOT_GENERATED: ma_chao_move
         CND_UNIQUE: ''
@@ -208,8 +208,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 295
-        CND_LAST_ROUND: 305
+        CND_FIRST_ROUND: 100
+        CND_LAST_ROUND: 140
         CND_NOT_FACTION: [wei, shu]
         CND_INCIDENT_NOT_GENERATED: xiahou_ba_move
         CND_UNIQUE: ''

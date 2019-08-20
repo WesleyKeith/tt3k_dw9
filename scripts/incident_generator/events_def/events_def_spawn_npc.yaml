@@ -136,12 +136,12 @@ events:
   custom_data:
     - ACTION_TYPE: SPAWN
       TARGET_FACTION: shu
-      TARGET_TEMPLATE: guan_ping_hero_fire
+      TARGET_TEMPLATE: guan_ping_hero_metal
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 50
-        CND_LAST_ROUND: 60
+        CND_FIRST_ROUND: 40
+        CND_LAST_ROUND: 50
         CND_INCIDENT_NOT_GENERATED: guan_ping_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -158,12 +158,12 @@ events:
   custom_data:
     - ACTION_TYPE: SPAWN
       TARGET_FACTION: shu
-      TARGET_TEMPLATE: guan_suo_hero_earth
+      TARGET_TEMPLATE: guan_suo_hero_water
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 60
-        CND_LAST_ROUND: 70
+        CND_FIRST_ROUND: 50
+        CND_LAST_ROUND: 60
         CND_INCIDENT_NOT_GENERATED: guan_suo_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -184,8 +184,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 105
-        CND_LAST_ROUND: 115
+        CND_FIRST_ROUND: 60
+        CND_LAST_ROUND: 70
         CND_INCIDENT_NOT_GENERATED: guan_xing_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -311,8 +311,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 160
-        CND_LAST_ROUND: 170
+        CND_FIRST_ROUND: 55
+        CND_LAST_ROUND: 70
         CND_INCIDENT_NOT_GENERATED: lady_guan_yinping_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -363,10 +363,10 @@ events:
         DUMMY: ''
 #TODO: spawn for zhang fei, not shu
 - event_name: lady_zhang_xingcai_npc_spawn
-  title: Daught of Zhang Fei
+  title: Daughter of Zhang Fei
   generate: True
   prioritized: True
-  description: It appears that Zhang Fei's daught, Zhang Xingcai has appeared.
+  description: It appears that Zhang Fei's daughter, Zhang Xingcai has appeared.
   is_custom: True
   custom_data:
     - ACTION_TYPE: SPAWN
@@ -375,8 +375,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 170
-        CND_LAST_ROUND: 180
+        CND_FIRST_ROUND: 110
+        CND_LAST_ROUND: 120
         CND_INCIDENT_NOT_GENERATED: lady_zhang_xingcai_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -459,8 +459,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 85
-        CND_LAST_ROUND: 95
+        CND_FIRST_ROUND: 80
+        CND_LAST_ROUND: 90
         CND_INCIDENT_NOT_GENERATED: liu_shan_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -518,12 +518,12 @@ events:
   custom_data:
     - ACTION_TYPE: SPAWN
       TARGET_FACTION: shu
-      TARGET_TEMPLATE: ma_dai_hero_fire
+      TARGET_TEMPLATE: ma_dai_hero_earth
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 90
-        CND_LAST_ROUND: 100
+        CND_FIRST_ROUND: 35
+        CND_LAST_ROUND: 45
         CND_INCIDENT_NOT_GENERATED: ma_dai_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -543,8 +543,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 90
-        CND_LAST_ROUND: 100
+        CND_FIRST_ROUND: 45
+        CND_LAST_ROUND: 50
         CND_INCIDENT_NOT_GENERATED: 3k_main_char_historical_pang_tong_spawns_pc_incident
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -608,8 +608,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 100
-        CND_LAST_ROUND: 110
+        CND_FIRST_ROUND: 25
+        CND_LAST_ROUND: 35
         CND_INCIDENT_NOT_GENERATED: wei_yan_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -713,8 +713,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 76
-        CND_LAST_ROUND: 86
+        CND_FIRST_ROUND: 50
+        CND_LAST_ROUND: 60
         CND_INCIDENT_NOT_GENERATED: 3k_main_historical_liu_xu_shu_joins_incident
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu
@@ -735,8 +735,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 140
-        CND_LAST_ROUND: 150
+        CND_FIRST_ROUND: 100
+        CND_LAST_ROUND: 120
         CND_INCIDENT_NOT_GENERATED: zhang_bao_spawn
         CND_UNIQUE: ''
         CND_NOT_FACTION: shu

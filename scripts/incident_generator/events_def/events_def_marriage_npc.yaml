@@ -65,8 +65,8 @@ events:
     target:
       - default:
         - option_junctions:
-            CND_FIRST_ROUND: 48
-            CND_LAST_ROUND: 52
+            CND_FIRST_ROUND: 40
+            CND_LAST_ROUND: 60
             CND_UNIQUE: ''
             CND_INCIDENT_NOT_GENERATED: 3k_main_historical_sun_qiao_sisters_pc_incident
             CND_NOT_FACTION: wu
@@ -146,8 +146,8 @@ events:
     target:
       - default:
         - option_junctions:
-            CND_FIRST_ROUND: 70
-            CND_LAST_ROUND: 80
+            CND_FIRST_ROUND: 35
+            CND_LAST_ROUND: 45
             CND_UNIQUE: ''
             CND_NOT_DILEMMA_GENERATED: zhang_fei_xiahou_ji_marriage_spawn
             CND_NOT_FACTION: shu

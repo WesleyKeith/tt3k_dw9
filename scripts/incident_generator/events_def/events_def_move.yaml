@@ -57,8 +57,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 110
-        CND_LAST_ROUND: 120
+        CND_FIRST_ROUND: 11
+        CND_LAST_ROUND: 12
         CND_UNIQUE: ''
         GEN_CND_SELF: ''
         CND_FACTION: shu
@@ -132,8 +132,8 @@ events:
   target:
   - default:
     - option_junctions:
-        CND_FIRST_ROUND: 120
-        CND_LAST_ROUND: 130
+        CND_FIRST_ROUND: 12
+        CND_LAST_ROUND: 13
         CND_UNIQUE: ''
         GEN_CND_SELF: ''
         CND_FACTION: shu
@@ -399,7 +399,7 @@ events:
   - default:
     - option_junctions:
         CND_FIRST_ROUND: 0
-        CND_LAST_ROUND: 95
+        CND_LAST_ROUND: 40
         CND_UNIQUE: ''
         GEN_CND_SELF: ''
         CND_INCIDENT_NOT_GENERATED: sun_zhou_tai_joins_any

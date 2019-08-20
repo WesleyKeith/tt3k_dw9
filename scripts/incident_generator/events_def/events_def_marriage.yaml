@@ -160,8 +160,8 @@ events:
     target:
       - default:
         - option_junctions:
-            CND_FIRST_ROUND: 70
-            CND_LAST_ROUND: 80
+            CND_FIRST_ROUND: 45
+            CND_LAST_ROUND: 50
             CND_UNIQUE: ''
             CND_INCIDENT_NOT_GENERATED: zhang_fei_xiahou_ji_marriage_spawn_npc
             GEN_TARGET_FACTION: ''
